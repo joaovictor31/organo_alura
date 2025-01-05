@@ -4,10 +4,12 @@ import Dados from './Dados';
 function Formulario(){
     return(
         <div className="card_colaborador">
-    <h1 className="titulo">Preencha os dados para criar o crad do colaborador</h1>
+    <h2 className="titulo">Preencha os dados para criar o card do colaborador</h2>
     <div className="form-container">
-     <Dados label = 'Nome'/>
-     //
+     <Dados label = 'Nome' placeholder = 'Digite seu nome'/>
+     <Dados label = 'Cargo' placeholder = 'Digite seu cargo'/>
+     <Dados label = 'Imagem' placeholder = 'Informe o endereço da imagem'/>
+    
     </div>
 </div>
     )

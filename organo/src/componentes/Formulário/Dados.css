@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 .form-grupo{
+    width: 50%;
     margin: 24px 0;
     display: flex;
     flex-direction: column;
-    gap: 8px;}
+    gap: 8px;
+
+}
 
 .form-grupo label{
     font-size: 18px;
@@ -11,7 +15,13 @@
 }
 
 .form-grupo input{
-    width:100%;
     box-shadow:10px 10px 30px rgba(0,0,0,0);
     background-color:#FFF;
+    border: none;
+    
+}
+
+.meu_label{
+    font-family: "Montserrat", serif;
+    font-weight: 700;
 }
